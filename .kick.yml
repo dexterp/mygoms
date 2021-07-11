@@ -1,0 +1,6 @@
+name: goms
+desription: Go template to start microservices
+envs:
+    GOSERVER: This is the "server" part of the import and go.mod files. E.G. for `import "github.com/mygroup/myproject"` then GOSERVER=github.com
+    GOGROUP: This is the "group" part of the import and go.mod files. E.G. for `import "github.com/mygroup/myproject"` then GOGROUP=mygroup
+    GOVERSION: This is the version set in go.mod. EG for a go.mod with `go 1.16` then GOVERSION=1.16
